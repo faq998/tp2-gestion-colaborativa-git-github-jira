@@ -8,12 +8,3 @@ print(df.head())
 
 print("\nVentas totales:")
 print(df["sales_amount"].sum())
-
-print("\nPromedio de ventas:")
-print(df["sales_amount"].mean())
-
-print("\nVenta máxima:")
-print(df["sales_amount"].max())
-
-print("\nVenta mínima:")
-print(df["sales_amount"].min())
